@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">OSCAL 2018</string>
+    <string name="app_name" translatable="false">OSCAL 2018</string>
+    <string name="loading">Loading…</string>
 </resources>
