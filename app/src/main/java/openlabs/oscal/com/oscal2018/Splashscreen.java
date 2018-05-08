@@ -16,6 +16,7 @@ public class Splashscreen extends Activity {
         Window window = getWindow();
         window.setFormat(PixelFormat.RGBA_8888);
     }
+
     /** Called when the activity is first created. */
     Thread splashTread;
     @Override
@@ -27,13 +28,13 @@ public class Splashscreen extends Activity {
     private void StartAnimations() {
         Animation anim = AnimationUtils.loadAnimation(this, R.anim.alpha);
         anim.reset();
-        LinearLayout l=(LinearLayout) findViewById(R.id.lin_lay);
+        LinearLayout l= findViewById(R.id.lin_lay);
         l.clearAnimation();
         l.startAnimation(anim);
 
         anim = AnimationUtils.loadAnimation(this, R.anim.translate);
         anim.reset();
-        ImageView iv = (ImageView) findViewById(R.id.splash);
+        ImageView iv = findViewById(R.id.splash);
         iv.clearAnimation();
         iv.startAnimation(anim);
 
@@ -57,10 +58,8 @@ public class Splashscreen extends Activity {
                 } finally {
                     Splashscreen.this.finish();
                 }
-
             }
         };
         splashTread.start();
-
     }
 }
