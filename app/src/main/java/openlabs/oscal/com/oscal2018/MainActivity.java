@@ -51,6 +51,8 @@ public class MainActivity extends AppCompatActivity {
         webView = findViewById(R.id.webview);
         webView.loadUrl("https://app.oscal.openlabs.cc");
         WebSettings webSettings = webView.getSettings();
+        webSettings.setDatabaseEnabled(true);
+        webSettings.setDomStorageEnabled(true);
         webSettings.setJavaScriptEnabled(true);
         webView.setWebViewClient(new OscalWebViewClient(findViewById(R.id.loading_container)));
     }
