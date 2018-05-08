@@ -19,8 +19,8 @@
   License along with this program. If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources>
-    <color name="colorPrimary">#EA282B</color>
-    <color name="colorPrimaryDark">#EA282B</color>
-    <color name="colorAccent">#AF0002</color>
+    <color name="colorPrimary">#EA272B</color>
+    <color name="colorPrimaryDark">#AF0002</color>
+    <color name="colorAccent">#FF6455</color>
     <color name="grey600">#757575</color>
 </resources>
