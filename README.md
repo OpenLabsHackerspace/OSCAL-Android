@@ -8,4 +8,4 @@ If you want to contribute to the [OSCAL 2018](https://oscal.openlabs.cc/)  Andro
 - opening issues and PRs
 
 ## License
-App's source code is licensed under a [AGPL v3+](LICENSE.txt), any OSCAL logos and further graphical work is licensed unter [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+App's source code is licensed under a [AGPL v3+](LICENSE.txt), any OSCAL logos and further graphical work is licensed under [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/.
