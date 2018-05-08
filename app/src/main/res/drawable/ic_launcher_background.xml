@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  OSCAL conference logo background (c) by Andy Scherzinger
+
+  OSCAL conference logo background is licensed under a
+  Creative Commons Attribution-ShareAlike 4.0 International License.
+
+  You should have received a copy of the license along with this
+  work. If not, see <http://creativecommons.org/licenses/by-sa/4.0/>.
+-->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="108dp"
     android:height="108dp"
