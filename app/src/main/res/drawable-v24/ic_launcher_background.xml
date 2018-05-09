@@ -1,0 +1,33 @@
+<!--
+  OSCAL conference logo (c) by Anxhelo Lushka, Elio Qoshi, Andy Scherzinger
+
+  OSCAL conference logo is licensed under a
+  Creative Commons Attribution-ShareAlike 4.0 International License.
+
+  You should have received a copy of the license along with this
+  work. If not, see <http://creativecommons.org/licenses/by-sa/4.0/>.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt"
+        android:width="108dp"
+        android:height="108dp"
+        android:viewportWidth="192"
+        android:viewportHeight="192">
+  <path
+      android:pathData="M0.001,-0.001l191.999,0l0,192l-191.999,0z"
+      android:fillColor="#EA272B"/>
+  <path
+      android:pathData="M0.001,-0.001l191.999,0l0,192l-191.999,0z">
+    <aapt:attr name="android:fillColor">
+      <gradient 
+          android:gradientRadius="256.3711"
+          android:centerX="10.74469"
+          android:centerY="10.905558"
+          android:type="radial">
+        <item android:offset="0" android:color="#1AFFFFFF"/>
+        <item android:offset="0.33" android:color="#0EFFFFFF"/>
+        <item android:offset="1" android:color="#00FFFFFF"/>
+      </gradient>
+    </aapt:attr>
+  </path>
+</vector>
